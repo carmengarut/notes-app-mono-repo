@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNzk2MmZlZjM4N2FhYmRlYzBmN2M2ZCIsInVzZXJuYW1lIjoiY2FybWVuIiwiaWF0IjoxNjM1NjcwOTc1fQ.X2ug2MjotSwT4YTbKSNfPUJKouqtqARmlIsmL089PAQ
+ 
+{
+    "content": "holbkka 222222",
+    "important": true
+}
+
+###
+
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+{
+    "content": "holaodkdjs"
+}
